@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+	<html>
+		<body onload="randombg()">
+			
+			<title>The Four Seasons</title>
+			<div class="vignette"></div>
+			<div><h1>THE FOUR SEASONS</h1></div>
+			
+			
+			<section id="summer">
+			<div class="sm" style="width: 200px; height: 100px; border: 6px solid #FFFFFF; background-color: #f0f0f0; text-align: center; line-height: 100px;"><a href="Seasons\Summer.html">Summer</a></div>
+			</section>
+			<section id="spring">
+			<div class="sp" style="width: 200px; height: 100px; border: 6px solid #FFFFFF; background-color: #f0f0f0; text-align: center; line-height: 100px;"><a href="Seasons\Spring.html">Spring</a></div>
+			</section>
+			<section id="fall">
+			<div class="fa" style="width: 200px; height: 100px; border: 6px solid #FFFFFF; background-color: #f0f0f0; text-align: center; line-height: 100px;"><a href="Seasons\Fall.html">Fall</a></div>
+			</section>
+			<section id="winter">
+			<div class="wt" style="width: 200px; height: 100px; border: 6px solid #FFFFFF; background-color: #f0f0f0; text-align: center; line-height: 100px;"><a href="Seasons\Winter.html">Winter</a></div>
+			</section>
+			
+		</body>
+						<!--this is where the random video backgroun eyesss!!!!!-->
+		<a href="About Us.html">About Us</a>
+		<video autoplay muted loop id="myVideo">
+		<source src="Images/lol.mp4" id="background-video" type="video/mp4">
+		</video>
+		<script>
+		const possibleVideos = ["Images/lol2.mp4", "Images/lol.mp4", "Images/lol3.mp4", "Images/lol4.mp4", "Images/lol5.mp4", "Images/lol6.mp4"];
+
+		//Sir, what is insanity?
+		const randomNum = Math.floor( Math.random() * (possibleVideos.length) )
+		const randomVideo = possibleVideos[ randomNum ];
+		const myVid = document.getElementById('background-video');
+		myVid.src = randomVideo;
+		myVid.load();
+		myVid.play();
+		</script>
+						<!--CSS-->		
+	<style>
+	
+	h1{
+
+    position: fixed;
+    top: 50%;
+	color: #FFFFFF;
+	font-family: Garamond;
+	font-weight: 1000;
+    left: 50%;
+    margin-top: -00px;
+    margin-left: -150px;
+	z-index: 10;
+	
+	
+	
+	}
+	
+	body{
+	background-image: url('Images/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+		
+	#summer{
+	position: fixed;
+    color: #FFFFFF;
+    text-decoration: none;
+    top: 50%;
+	font-weight: 1000;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -90px;
+	text-transform: uppercase;
+	
+	
+	}
+	
+	.sm{
+		border-radius: 25px;
+        transition: all 0.3s ease-in-out;
+		background-image: url("Images/Summer.gif");
+		background-size: cover;
+		background-repeat: no-repeat;
+		
+		
+	}
+	.sm:hover{
+	 border-radius: 400px;
+	 width: 100px !important;
+	 height: 100px !important;
+	 	 border: none !important;
+	 transform: scale(5.5);
+	 }
+
+	.sm:active{
+	 border-radius: 250px;
+	 width: 100px !important;
+	 height: 100px !important;
+	 transform: scale(1.1);
+	 width: 200px; 
+	 height: 100px;
+	 
+	}
+	
+	#summer:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+	font-weight: 700 !important;
+	font-size: 50%;
+	letter-spacing: 3px;
+	border: none !important;
+	}
+	
+	#winter{
+	text-decoration: none;
+	font-weight: 1000;
+	text-transform: uppercase;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 150px;
+    margin-left: -90px;
+	}
+	
+		.wt{
+		border-radius: 25px;
+        transition: all 0.3s ease-in-out;
+		background-image: url("Images/Winter.gif");
+		background-size: cover;
+		background-repeat: no-repeat;
+		
+		
+		
+	}
+	.wt:hover{
+	 border-radius: 400px;
+	 width: 100px !important;
+	 height: 100px !important;
+	 transform: scale(5.5);
+	 letter-spacing: 3px;
+	 border: none !important;
+	 }
+
+	.wt:active{
+	 border-radius: 250px;
+	 width: 100px !important;
+	 height: 100px !important;
+	 transform: scale(1.1);
+	 width: 200px; 
+	 height: 100px;
+	 
+	 
+	}
+	
+	#fall{
+	text-decoration: none;
+	font-weight: 1000;
+	text-transform: uppercase;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: 270px;
+	margin-top: -30px;
+	}
+	
+	.fa{
+	border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+	background-image: url("Images/Fall.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+		
+		
+	}
+	.fa:hover{
+	 border-radius: 400px;
+	 width: 100px !important;
+	 height: 100px !important;
+	 transform: scale(5.5);
+	 border: none !important;
+	 	letter-spacing: 3px;
+	 }
+	 
+	 .fa:active{
+	 border-radius: 250px;
+	 width: 100px !important;
+	 height: 100px !important;
+	 transform: scale(1.1);
+	 width: 200px; 
+	 height: 100px;
+	}
+	
+	#spring{
+	text-decoration: none;
+	font-weight: 1000;
+	text-transform: uppercase;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -450px;
+	margin-top: -30px;
+	
+	}
+	
+	#spring:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+	font-weight: 700 !important;
+	font-size: 50%;
+	letter-spacing: 3px;
+		letter-spacing: 3px;
+	border: none !important;
+	}
+	
+	
+	.sp{
+	border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+	background-image: url("Images/Spring.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+		
+		
+	}
+	.sp:hover{
+	 border-radius: 400px;
+	 width: 100px !important;
+	 height: 100px !important;
+	 transform: scale(5.5);
+	 	letter-spacing: 3px;
+	 border: none !important;
+	 }
+	 
+	 .sp:active{
+	 border-radius: 250px;
+	 width: 100px !important;
+	 height: 100px !important;
+	 transform: scale(1.1);
+	 width: 200px; 
+	 height: 100px;
+	}
+
+	video {
+ object-fit: cover;
+ background-size: cover;
+ width:100%;
+ height: 100%; 
+ 
+ position: absolute; 
+ top: 0; 
+ left: 0;
+   z-index: -100;
+  left: 0;
+  bottom: 0;
+ 
+}
+
+	.vignette {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	   z-index: -99;
+	box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+	}
+		
+	</style>
+		
+
+</html>
