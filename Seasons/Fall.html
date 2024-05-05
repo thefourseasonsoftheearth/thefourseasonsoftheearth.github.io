@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-	<html>
-		<body>
 		<div id="leaves">
 		<i></i>
 		<i></i>
@@ -18,10 +16,13 @@
 		<i></i>
 		<i></i> 
 		</div>
+	<html>
+		<body>
+
 		<title>Fall</title>
 		<a href="../index.html">Back to Home</a>
-		
-		<h1>Autumn/Fall</h1>
+		<div class="trnslc">
+		<h1>AUTUMN/FALL</h1>
 		<p>Autumn, often referred to as fall, is a season of transition and transformation. The days start becoming shorter, and there is a noticeable shift in the temperature as the heat of summer gives way to cooler breezes. The trees paint the landscape with hues of red, orange, and gold, creating a stunning display of colors. Not only do autumn leaves captivate the eyes, but they also crunch beneath our feet, reminding us of the changing seasons. Animals prepare for the upcoming winter, gathering food and migrating to warmer regions. Autumn brings a sense of harvest, gratitude, and reflection, as we witness the cycle of life and prepare for the colder months that lie ahead.</p>
 		<ul><h1>FACTS</h1>
 		<li>Autumn, also known as fall, is the transition season between summer and winter.</li>
@@ -30,6 +31,8 @@
 		<li>During this season, the temperatures gradually cool down, leaves change color, and they eventually fall from trees.</li>
 		<li>Autumn is famous for festivities like Halloween, Thanksgiving, and the harvesting of crops such as apples, pumpkins, and grains.</li>
 		</ul>
+		</div>
+		
 				</body>
 		<style>
 		body {background: linear-gradient(85deg, rgba(235,180,131,1) 0%, rgba(0,172,193,1) 100%);}
@@ -38,7 +41,26 @@ p {color: white;}
 ul {color: white;}
 
 
-
+    .trnslc {
+      background-color: #000000;
+      background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+      opacity: .50;
+      /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+      filter: alpha(opacity=50);
+      /* IE lt 8 */
+      -ms-filter: "alpha(opacity=50)";
+      /* IE 8 */
+      -khtml-opacity: .50;
+      /* Safari 1.x */
+      -moz-opacity: .50;
+      /* FF lt 1.5, Netscape */
+      filter: none !important;
+      overflow: hidden;
+      z-index: -10;
+      height: 100%;
+      width: 97%;
+      margin: auto;
+    }
 
 /* leaf animations */
 
@@ -177,5 +199,12 @@ ul {color: white;}
     }
 }
 
+    body {
+      height: 100vh;
+
+      overflow: hidden;
+
+      font-family: verdana;
+    }
 		</style>
 </html>

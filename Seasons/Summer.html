@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-	<html>
-		<body>
-		<div class="sun">
-    <div class="ray_box">
+<html>
+  <body>
+    <div class="sun">
+      <div class="ray_box">
         <div class="ray ray1"></div>
         <div class="ray ray2"></div>
         <div class="ray ray3"></div>
@@ -13,229 +13,278 @@
         <div class="ray ray8"></div>
         <div class="ray ray9"></div>
         <div class="ray ray10"></div>
+      </div>
     </div>
-</div>
-</div>
-<!--Waves Container-->
+    </div>
+    <!--Waves Container-->
+    <title>Summer</title>
+    <a href="../index.html">Back to Home</a>
+	<div class="trnslc">
+    <h1>SUMMER</h1>
+    <p>With its long, bright days and warm temperatures, summer represents the peak of the year's vitality. This season is characterized by the intense heat of the sun, which brings people outdoors to enjoy activities like swimming, picnics, and vacations. The lush greenery of spring continues to thrive during summer, providing a perfect backdrop for leisurely strolls and outdoor adventures. Gardens flourish, filled with vibrant flowers and delicious fruits, while animals revel in the abundance of resources. Summer is a time of joy and relaxation, a period to celebrate life and savor the bounty of nature.</p>
+    <ul>
+      <h1>FACTS</h1>
+      <li>Summer is the hottest season of the year with longer days and shorter nights.</li>
+      <li>It occurs between June and August in the Northern Hemisphere and between December and February in the Southern Hemisphere.</li>
+      <li>The word "summer" originates from the Old English word "sumor" which is believed to be related to the Germanic word "sumaraz" meaning "good, beautiful."</li>
+    </ul>
+	</div>
+  </body>
+  <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+      </g>
+    </svg>
+  </div>
+  <!--Waves end-->
+	   <style>
+      .content {
+        height: 30vh;
+      }
+      }
 
-		<title>Summer</title>
-		<a href="../index.html">Back to Home</a>
-		
-		<h1>SUMMER</h1>
-		<p>With its long, bright days and warm temperatures, summer represents the peak of the year's vitality. This season is characterized by the intense heat of the sun, which brings people outdoors to enjoy activities like swimming, picnics, and vacations. The lush greenery of spring continues to thrive during summer, providing a perfect backdrop for leisurely strolls and outdoor adventures. Gardens flourish, filled with vibrant flowers and delicious fruits, while animals revel in the abundance of resources. Summer is a time of joy and relaxation, a period to celebrate life and savor the bounty of nature.</p>
 
-		<ul><h1>FACTS</h1>
-		<li>Summer is the hottest season of the year with longer days and shorter nights.</li>
-		<li>It occurs between June and August in the Northern Hemisphere and between December and February in the Southern Hemisphere.</li>
-		<li>The word "summer" originates from the Old English word "sumor" which is believed to be related to the Germanic word "sumaraz" meaning "good, beautiful."</li>
-		</ul>
-		
-				</body>
-		
-		
-				<div>
-<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-<defs>
-<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-</defs>
-<g class="parallax">
-<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-</g>
-</svg>
-</div>
-<!--Waves end-->
 
-<
-</div>
-		<style>
+      h1 {
+        color: white;
+      }
 
-.content {
-height:30vh;
-}
-}
-				body {background: #abcaff;}
-				
-h1 {color: white;}
-p {color: white;}
-ul {color: white;}
+      p {
+        color: white;
+      }
 
-body {
-  background:#2EB5E5 ;
-}
+      ul {
+        color: white;
+      }
 
-.sun { 
-  position: absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  margin: auto;  
-  width:70px;
-  height:70px;
-  border-radius:50%;  
-  background:white;
-  opacity:0.9;      
-  box-shadow: 0px 0px 40px 15px white;  
-}
+      body {
+        background: #2EB5E5;
+		height: 100vh;
+		overflow: hidden;
+		font-family: verdana;
+		color: white;
+      }
+      
 
-.ray_box {
-  position: absolute;
-  margin: auto;
-  top:0px;
-  left:0;
-  right:0;
-  bottom:0; 
-  width:70px;  
-  -webkit-animation: ray_anim 120s linear infinite;
-  animation: ray_anim 120s linear infinite;
-}
-.ray {  
-    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
-    background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%); 
-    margin-left:10px;
-    border-radius:80% 80% 0 0;
-    position:absolute;
-    opacity:0.1;
-}
+      .sun {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background: white;
+        opacity: 0.9;
+        box-shadow: 0px 0px 40px 15px white;
+      }
 
-.ray1 {    
-    height:170px;
-    width:30px;
-   -webkit-transform: rotate(180deg);
-    top:-175px;
-    left: 15px;
-}
-.ray2 {
-    height:100px;
-    width:8px;
-   -webkit-transform: rotate(220deg);
-    top:-90px;
-    left: 75px;
-}
-.ray3 {
-    height:170px;
-    width:50px;
-   -webkit-transform: rotate(250deg);
-    top:-80px;
-    left: 100px;
-}
-.ray4 {
-    height:120px;
-    width:14px;
-   -webkit-transform: rotate(305deg);
-    top:30px;
-    left: 100px;
-}
-.ray5 {
-    height:140px;
-    width:30px;
-   -webkit-transform: rotate(-15deg);
-    top:60px;
-    left: 40px;
-}
-.ray6 {
-    height:90px;
-    width:50px;
-   -webkit-transform: rotate(30deg);
-    top:60px;
-    left: -40px;
-}
-.ray7 {
-    height:180px;
-    width:10px;
-   -webkit-transform: rotate(70deg);
-    top:-35px;
-    left: -40px;
-}
-.ray8 {
-    height:120px;
-    width:30px;
-   -webkit-transform: rotate(100deg);
-    top:-45px;
-    left:-90px;
-}
-.ray9 {
-    height:80px;
-    width:10px;
-   -webkit-transform: rotate(120deg);
-    top:-65px;
-    left:-60px;
-}
-.ray10 {
-    height:190px;
-    width:23px;
-   -webkit-transform: rotate(150deg);
-    top:-185px;
-    left: -60px;
-}
+      .ray_box {
+        position: absolute;
+        margin: auto;
+        top: 0px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 70px;
+        -webkit-animation: ray_anim 120s linear infinite;
+        animation: ray_anim 120s linear infinite;
+      }
 
-.flex { /*Flexbox for containers*/
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-}
-.waves {
-bottom: 0
-position:relative;
-width: 100%;
-height:150vh;
-margin-bottom:-7px; /*Fix for safari gap*/
-min-height:100px;
-max-height:1500px;
-}
-.content {
-position:relative;
-height:20vh;
-text-align:center;
-background-color: white;
-}
-/* Animation */
-.parallax > use {
-animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
-}
-.parallax > use:nth-child(1) {
-animation-delay: -2s;
-animation-duration: 7s;
-}
-.parallax > use:nth-child(2) {
-animation-delay: -3s;
-animation-duration: 10s;
-}
-.parallax > use:nth-child(3) {
-animation-delay: -4s;
-animation-duration: 13s;
-}
-.parallax > use:nth-child(4) {
-animation-delay: -5s;
-animation-duration: 20s;
-}
-@keyframes move-forever {
-0% {
-transform: translate3d(-90px,0,0);
-}
-100% {
-transform: translate3d(85px,0,0);
-}
-}
-/*Shrinking for mobile*/
-@media (max-width: 768px) {
-.waves {
-height:40px;
-min-height:40px;
-}
-.content {
-height:30vh;
-}
-h1 {
-font-size:24px;
-}
-}
+      .ray {
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+        margin-left: 10px;
+        border-radius: 80% 80% 0 0;
+        position: absolute;
+        opacity: 0.1;
+      }
 
-		</style>
-		
+      .ray1 {
+        height: 170px;
+        width: 30px;
+        -webkit-transform: rotate(180deg);
+        top: -175px;
+        left: 15px;
+      }
+
+      .ray2 {
+        height: 100px;
+        width: 8px;
+        -webkit-transform: rotate(220deg);
+        top: -90px;
+        left: 75px;
+      }
+
+      .ray3 {
+        height: 170px;
+        width: 50px;
+        -webkit-transform: rotate(250deg);
+        top: -80px;
+        left: 100px;
+      }
+
+      .ray4 {
+        height: 120px;
+        width: 14px;
+        -webkit-transform: rotate(305deg);
+        top: 30px;
+        left: 100px;
+      }
+
+      .ray5 {
+        height: 140px;
+        width: 30px;
+        -webkit-transform: rotate(-15deg);
+        top: 60px;
+        left: 40px;
+      }
+
+      .ray6 {
+        height: 90px;
+        width: 50px;
+        -webkit-transform: rotate(30deg);
+        top: 60px;
+        left: -40px;
+      }
+
+      .ray7 {
+        height: 180px;
+        width: 10px;
+        -webkit-transform: rotate(70deg);
+        top: -35px;
+        left: -40px;
+      }
+
+      .ray8 {
+        height: 120px;
+        width: 30px;
+        -webkit-transform: rotate(100deg);
+        top: -45px;
+        left: -90px;
+      }
+
+      .ray9 {
+        height: 80px;
+        width: 10px;
+        -webkit-transform: rotate(120deg);
+        top: -65px;
+        left: -60px;
+      }
+
+      .ray10 {
+        height: 190px;
+        width: 23px;
+        -webkit-transform: rotate(150deg);
+        top: -185px;
+        left: -60px;
+      }
+
+      .flex {
+        /*Flexbox for containers*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .waves {
+        bottom: 0;
+		position:absolute;
+		right: 0.1%;
+        width: 100%;
+        height: 15vh;
+        margin-bottom: -7px;
+        /*Fix for safari gap*/
+        min-height: 320px;
+        max-height: 150px;
+		margin:auto;
+		z-index: -10;
+      }
+
+      .content {
+        position: relative;
+        height: 20vh;
+        text-align: center;
+        background-color: white;
+      }
+
+      /* Animation */
+      .parallax>use {
+        animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+      }
+
+      .parallax>use:nth-child(1) {
+        animation-delay: -2s;
+        animation-duration: 7s;
+      }
+
+      .parallax>use:nth-child(2) {
+        animation-delay: -3s;
+        animation-duration: 10s;
+      }
+
+      .parallax>use:nth-child(3) {
+        animation-delay: -4s;
+        animation-duration: 13s;
+      }
+
+      .parallax>use:nth-child(4) {
+        animation-delay: -5s;
+        animation-duration: 20s;
+      }
+
+      @keyframes move-forever {
+        0% {
+          transform: translate3d(-90px, 0, 0);
+        }
+
+        100% {
+          transform: translate3d(85px, 0, 0);
+        }
+      }
+
+      /*Shrinking for mobile*/
+      @media (max-width: 768px) {
+
+
+        .content {
+          height: 30vh;
+        }
+
+        h1 {
+          font-size: 24px;
+        }
+      }
+	  
+	  	.trnslc {
+	  background-color: #000000;
+      background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+      opacity: .50;
+      /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+      filter: alpha(opacity=50);
+      /* IE lt 8 */
+      -ms-filter: "alpha(opacity=50)";
+      /* IE 8 */
+      -khtml-opacity: .50;
+      /* Safari 1.x */
+      -moz-opacity: .50;
+      /* FF lt 1.5, Netscape */
+      filter: none !important;
+      overflow: hidden;
+      z-index: -10;
+      height: 100%;
+      width: 97%;
+      margin: auto;
+    }
+    </style>
 </html>

@@ -1,87 +1,231 @@
 <!DOCTYPE html>
-	<html>
-		<body>
-		  <div class="snowflake">
-		  ❅
-		  </div>
-		  <div class="snowflake">
-		  ❅
-		  </div>
-		  <div class="snowflake">
-		  ❆
-		  </div>
-		  <div class="snowflake">
-		  ❄
-		  </div>
-		  <div class="snowflake">
-		  ❅
-		  </div>
-		  <div class="snowflake">
-		  ❆
-		  </div>
-		  <div class="snowflake">
-		  ❄
-		  </div>
-		  <div class="snowflake">
-		  ❅
-		  </div>
-		  <div class="snowflake">
-		  ❆
-		  </div>
-		  <div class="snowflake">
-		  ❄
-		  </div>
-		<title>Winter</title>
-		<a href="../index.html">Back to Home</a>
-		
-		<h1>WINTER</h1>
-		<p>Winter is a season of contrasts, where the world transforms into a serene and often frosty wonderland. The days are shorter, and the nights grow longer, inviting us to cozy up indoors by a roaring fire. The temperatures drop, and snowfall blankets the ground, creating a pristine and magical scenery. Nature appears dormant, with trees shedding their leaves and animals hibernating in search of warmth. People engage in winter sports like skiing, ice skating, and building snowmen. Winter is a season of stillness and introspection, allowing us to appreciate the beauty of a frozen landscape and find comfort in the quietude of the season.</p>
-		</body>
-		
-		<ul><h1>FACTS</h1>
-		<li>Winter is the coldest season of the year with shorter days and longer nights.</li>
-		<li>It occurs between December and February in the Northern Hemisphere and between June and August in the Southern Hemisphere.</li>
-		<li>The word "winter" comes from the Old English word "winter" which means "time of year when days are short."</li>
-		<li>Winter solstice, occurring around December 21st in the Northern Hemisphere, marks the shortest daylight period and the longest night of the year.</li>
-		<li>Winter is associated with snowfall in many regions, colder temperatures, and various holidays such as Christmas and New Year's Eve.</li>
-		</ul>
-		
-		<style>
-		
-		.snowflake {
-  color: #fff;
-  font-size: 1em;
-  font-family: Arial;
-  text-shadow: 0 0 1px #000;
-}
+<html>
+  <body>
+    <div class="snowflake"> ❅ </div>
+    <div class="snowflake"> ❅ </div>
+    <div class="snowflake"> ❆ </div>
+    <div class="snowflake"> ❄ </div>
+    <div class="snowflake"> ❅ </div>
+    <div class="snowflake"> ❆ </div>
+    <div class="snowflake"> ❄ </div>
+    <div class="snowflake"> ❅ </div>
+    <div class="snowflake"> ❆ </div>
+    <div class="snowflake"> ❄ </div>
+    <title>Winter</title>
+    <a href="../index.html">Back to Home</a>
+    <div class="trnslc">
+      <h1>WINTER</h1>
+      <p>Winter is a season of contrasts, where the world transforms into a serene and often frosty wonderland. The days are shorter, and the nights grow longer, inviting us to cozy up indoors by a roaring fire. The temperatures drop, and snowfall blankets the ground, creating a pristine and magical scenery. Nature appears dormant, with trees shedding their leaves and animals hibernating in search of warmth. People engage in winter sports like skiing, ice skating, and building snowmen. Winter is a season of stillness and introspection, allowing us to appreciate the beauty of a frozen landscape and find comfort in the quietude of the season. During winter, the Earth's axis is tilted away from the sun, causing less direct sunlight and cooler temperatures. In many regions, winter brings freezing temperatures and snowfall, creating a picturesque winter wonderland but also causing disruptions to daily life. Winter can also have a significant impact on wildlife and vegetation, with many animals hibernating or migrating to warmer climates, while some plants go dormant until the arrival of spring. Overall, winter is a diverse and beautiful season that offers opportunities for both outdoor recreation and cozy indoor activities.</p>
+      <section id="txt">
+  </body>
+  <ul>
+    <h1>FACTS</h1>
+    <li>Winter is the coldest season of the year with shorter days and longer nights.</li>
+    <li>It occurs between December and February in the Northern Hemisphere and between June and August in the Southern Hemisphere.</li>
+    <li>The word "winter" comes from the Old English word "winter" which means "time of year when days are short."</li>
+    <li>Winter solstice, occurring around December 21st in the Northern Hemisphere, marks the shortest daylight period and the longest night of the year.</li>
+    <li>Winter is associated with snowfall in many regions, colder temperatures, and various holidays such as Christmas and New Year's Eve.</li>
+  </ul>
+  </div>
+  </section>
+  <style>
+    .trnslc {
+      background-color: #000000;
+      background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+      opacity: .50;
+      /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+      filter: alpha(opacity=50);
+      /* IE lt 8 */
+      -ms-filter: "alpha(opacity=50)";
+      /* IE 8 */
+      -khtml-opacity: .50;
+      /* Safari 1.x */
+      -moz-opacity: .50;
+      /* FF lt 1.5, Netscape */
+      filter: none !important;
+      overflow: hidden;
+      z-index: -10;
+      height: 100%;
+      width: 97%;
+      margin: auto;
+    }
 
-@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
-/* Demo Purpose Only*/
-.demo {
-  font-family: 'Raleway', sans-serif;
-	color:#fff;
-    display: block;
-    margin: 0 auto;
-    padding: 15px 0;
-    text-align: center;
-}
-.demo a{
-  font-family: 'Raleway', sans-serif;
-color: #000;		
-}
-				body {background: #222;}
-h1 {color: white;}
-p {color: white;}
-ul {color: white;}
+    .snowflake {
+      color: #fff;
+      font-size: 1em;
+      font-family: Arial;
+      text-shadow: 0 0 1px #000;
+    }
 
-body {
-  height: 100vh;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  overflow: hidden;
-  filter: drop-shadow(0 0 10px white);
-}
+    @-webkit-keyframes snowflakes-fall {
+      0% {
+        top: -10%
+      }
 
+      100% {
+        top: 100%
+      }
+    }
 
-		</style>
-		
+    @-webkit-keyframes snowflakes-shake {
+      0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px)
+      }
+
+      50% {
+        -webkit-transform: translateX(80px);
+        transform: translateX(80px)
+      }
+
+      100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px)
+      }
+    }
+
+    @keyframes snowflakes-fall {
+      0% {
+        top: -10%
+      }
+
+      100% {
+        top: 100%
+      }
+    }
+
+    @keyframes snowflakes-shake {
+      0% {
+        transform: translateX(0px)
+      }
+
+      50% {
+        transform: translateX(80px)
+      }
+
+      100% {
+        transform: translateX(0px)
+      }
+    }
+
+    .snowflake {
+      position: fixed;
+      top: -10%;
+      z-index: 9999;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      cursor: default;
+      -webkit-animation-name: snowflakes-fall, snowflakes-shake;
+      -webkit-animation-duration: 10s, 3s;
+      -webkit-animation-timing-function: linear, ease-in-out;
+      -webkit-animation-iteration-count: infinite, infinite;
+      -webkit-animation-play-state: running, running;
+      animation-name: snowflakes-fall, snowflakes-shake;
+      animation-duration: 10s, 3s;
+      animation-timing-function: linear, ease-in-out;
+      animation-iteration-count: infinite, infinite;
+      animation-play-state: running, running
+    }
+
+    .snowflake:nth-of-type(0) {
+      left: 1%;
+      -webkit-animation-delay: 0s, 0s;
+      animation-delay: 0s, 0s
+    }
+
+    .snowflake:nth-of-type(1) {
+      left: 10%;
+      -webkit-animation-delay: 1s, 1s;
+      animation-delay: 1s, 1s
+    }
+
+    .snowflake:nth-of-type(2) {
+      left: 20%;
+      -webkit-animation-delay: 6s, .5s;
+      animation-delay: 6s, .5s
+    }
+
+    .snowflake:nth-of-type(3) {
+      left: 30%;
+      -webkit-animation-delay: 4s, 2s;
+      animation-delay: 4s, 2s
+    }
+
+    .snowflake:nth-of-type(4) {
+      left: 40%;
+      -webkit-animation-delay: 2s, 2s;
+      animation-delay: 2s, 2s
+    }
+
+    .snowflake:nth-of-type(5) {
+      left: 50%;
+      -webkit-animation-delay: 8s, 3s;
+      animation-delay: 8s, 3s
+    }
+
+    .snowflake:nth-of-type(6) {
+      left: 60%;
+      -webkit-animation-delay: 6s, 2s;
+      animation-delay: 6s, 2s
+    }
+
+    .snowflake:nth-of-type(7) {
+      left: 70%;
+      -webkit-animation-delay: 2.5s, 1s;
+      animation-delay: 2.5s, 1s
+    }
+
+    .snowflake:nth-of-type(8) {
+      left: 80%;
+      -webkit-animation-delay: 1s, 0s;
+      animation-delay: 1s, 0s
+    }
+
+    .snowflake:nth-of-type(9) {
+      left: 90%;
+      -webkit-animation-delay: 3s, 1.5s;
+      animation-delay: 3s, 1.5s
+    }
+
+    /* Demo Purpose Only*/
+    .demo {
+      font-family: 'Raleway', sans-serif;
+      color: #fff;
+      display: block;
+      margin: 0 auto;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    .demo a {
+      font-family: 'Raleway', sans-serif;
+      color: #000;
+    }
+
+    body {
+      background: #222;
+    }
+
+    h1 {
+      color: white;
+    }
+
+    p {
+      color: white;
+    }
+
+    ul {
+      color: white;
+    }
+
+    body {
+      height: 100vh;
+      background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+      overflow: hidden;
+      filter: drop-shadow(0 0 10px white);
+      font-family: verdana;
+    }
+  </style>
 </html>
