@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
-/* 
-  CONTACT FORM EXAMPLE FOR FORMCARRY
 
-  IMPORTANT NOTE:
-  PLEASE ADD formcarry-form class to your form element
-  to apply the styles.
-*/
 
 .formcarry-container * {
   box-sizing: border-box;
@@ -14,7 +8,7 @@
 
   /* colors */
   --color-blue: #2552d0;
-  --color-light-blue: #3266e3;
+  --color-light-blue: #8bff85;
   --color-gray: #e5e7eb;
   --color-dark-gray: #9da3ae;
   --color-pink: #edadd2;
